@@ -1,0 +1,492 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App > h1 {
+  font-family: DINPro;
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+  border-radius: 3.8px;
+  filter: brightness(50%);
+  border-top-left-radius: 3.8px;
+  border-top-right-radius: 3.8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.collegeImage {
+  width: 100%;
+  height: 233px;
+  border-top-left-radius: 3.8px;
+  border-top-right-radius: 3.8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  position: relative;
+}
+
+.Description {
+  width: 100%;
+  height: auto;
+  border-radius: 3.8px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#collegeName {
+  width: auto;
+  height: 17px;
+  font-family: DINPro;
+  font-size: 16.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  margin: 0px 0px 5px 7px;
+}
+
+#orignalPrice {
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+.Des-left {
+  margin-top: 10px;
+}
+
+#discountContent {
+  text-align: right;
+  margin-top: 10px;
+
+  margin-right: 5px;
+}
+
+.Des-right {
+  padding-right: 5px;
+  padding-top: 0px;
+}
+
+#discount {
+  font-size: 9px;
+  background: red;
+  margin-left: 3px;
+  padding: 2px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  color: white;
+  font-family: DINPro;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ImageAndDetails {
+  font-family: DINPro;
+  margin: 8px;
+  width: 45%;
+  max-width: 640px;
+  margin: 20px auto;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  background-color: #ffffff;
+  position: relative;
+}
+@media screen and (max-width: 1100px) {
+  .ImageAndDetails {
+    width: 100%;
+  }
+}
+
+.lowerTags {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  position: relative;
+  top: -60px;
+}
+
+.lowerTags > p {
+  margin: 10px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 16.5px;
+  vertical-align: center;
+
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+.lowerTags > p:nth-of-type(3) {
+  color: white;
+  background: transparent;
+  position: absolute;
+  left: 60%;
+
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+.ratings {
+  width: 75px;
+  height: 53px;
+  border-radius: 3.8px;
+  background-color: #f5a626;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+#ratingsRemarks {
+  position: absolute;
+  top: 20%;
+  left: -5%;
+}
+
+.ratings > div {
+  width: 80px;
+  height: 35px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#bus {
+  width: 157px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+
+#metro {
+  width: 196px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+}
+
+#metroAndBus {
+  margin-left: 7px;
+}
+#famousPlaces {
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  margin-left: 7px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #adadad;
+}
+
+#offer {
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  background-color: #ccf5e7;
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#discounted {
+  width: 85px;
+  height: 26px;
+  font-family: DINPro;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dd1c26;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+#cycle {
+  width: 106px;
+  height: 10px;
+  font-family: Myriad Pro;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: right;
+  color: #444444;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+#orignalAndDiscount {
+  margin: auto;
+  text-align: right;
+}
+
+#amenties {
+  /* width: 105px; */
+  height: 10px;
+  font-family: DINPro;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: right;
+  margin-right: 5px;
+  color: #37b396;
+  padding-top: 23px;
+}
+
+@media screen and (max-width: 500px) {
+  .ImageAndDetails {
+    width: 100%;
+  }
+
+  #collegeName {
+    /* width: 200px; */
+    height: 17px;
+    font-family: DINPro;
+    font-size: 9.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+    margin-left: 7px;
+    margin-bottom: 5px;
+  }
+  #bus {
+    width: 157px;
+    height: 13px;
+    font-family: DINPro;
+    font-size: 9.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #adadad;
+  }
+
+  #metro {
+    width: 196px;
+    height: 13px;
+    font-family: DINPro;
+    font-size: 9.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+  }
+
+  #metroAndBus {
+    margin-left: 7px;
+    text-align: left;
+  }
+  #famousPlaces {
+    /* width: 358px; */
+    width: fit-content;
+    height: 13px;
+    font-family: DINPro;
+    font-size: 9.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin-left: 7px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #adadad;
+  }
+
+  #offer {
+    font-family: DINPro;
+    font-size: 9.5px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    /* width: 200px; */
+    letter-spacing: normal;
+    text-align: left;
+    background-color: #ccf5e7;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #discounted {
+    width: 85px;
+    height: 26px;
+    font-family: DINPro;
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    text-align: right;
+    color: #dd1c26;
+    margin-left: auto;
+    margin-right: 5px;
+  }
+  #orignalAndDiscount {
+    margin: auto;
+    /* text-align: right; */
+  }
+  #discountContent {
+    text-align: right;
+    margin-top: 0px;
+
+    margin-right: 5px;
+  }
+
+  .lowerTags > p:nth-of-type(3) {
+    color: white;
+    background: transparent;
+    position: absolute;
+    left: 55%;
+
+    font-size: 9.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+  }
+  .lowerTags > p {
+    margin: 5px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 12.5px;
+    vertical-align: center;
+
+    font-size: 9.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+  }
+
+  .stars {
+    padding-top: 0px !important;
+  }
+  #amenties {
+    margin-left: auto;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Des-left {
+    width: 60%;
+  }
+  .Des-right {
+    width: 40%;
+    padding-right: 0px;
+    margin-top: 6px;
+  }
+}
+
+#promoted {
+  position: absolute;
+  top: -10px;
+
+  right: 0px;
+  width: 152px;
+  font-size: 12.5px;
+
+  height: 20px;
+  background-color: #68a7ff;
+  color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding-top: 5px;
+}
+
+.star {
+  font-size: 6px;
+  color: grey;
+}
+
+.star.filled {
+  color: black;
+}
+
+.stars {
+  display: flex;
+  padding-top: 6px;
+  margin-left: 8px;
+}
+
+.star-name-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  .star-name-container {
+    flex-direction: column;
+  }
+}
